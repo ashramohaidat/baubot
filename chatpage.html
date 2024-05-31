@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Find Way</title>
+  <!-- Link to the external CSS stylesheet -->
+  <link rel="stylesheet" href="chatpage.css">
+</head>
+<body>
+<!-- Main container for the chatbot interface -->
+  <div class="chat-container">
+    <!-- Chatbot title -->
+    <h1>BAU CHAT BOT</h1>
+    <!-- Container for the chat messages -->
+    <div class="chat-output" id="chatOutput">
+      <!-- Bot message with avatar and welcome text -->
+      <div class="bot-message chat-message">
+        <!-- Bot avatar image -->
+        <img src="imges/bot.png" class="avatar" alt="Bot Avatar">
+        <!-- Welcome message text -->
+        <div id="chatbox">
+          <div class="bot-message">Welcome to the BAU CHAT BOT, Feel free to ask questions or choose a suggested topic below.😊</div>
+        </div>
+        </div>
+    </div>
+    <!-- Container for the chat input field and send button -->
+    <div class="chat-input-container">
+      <!-- Input field for the user to type their question -->
+      <input type="text" id="userInput" placeholder="Type your question here...">
+      <!-- Button to send the user's question -->
+      <button id="sendButton">Send</button>
+    </div>
+    <!-- Container for the suggested topics section -->
+    <div class="suggested-topics">
+      <!-- Suggested topics title -->
+      <!--<h3>Suggested Topics</h3>-->
+      <!-- Container for the topic buttons -->
+      <div class="topics-buttons-container">
+        <!-- Topic buttons -->
+        <button class="topic-button">Science College</button>
+        <!--<button class="topic-button">Computer Center</button>-->
+        <button class="topic-button">Prince Abdullah bin Ghazi Faculty of IT</button>
+        <button class="topic-button">Faculty of Medicine</button>
+        <!--<button class="topic-button">Faculty of Engineering Technology</button>-->
+      </div>
+    </div>
+  </div>
+  <!-- Link to the external JavaScript file -->
+  <script src="chatpage.js"></script>
+</body>
+</html>

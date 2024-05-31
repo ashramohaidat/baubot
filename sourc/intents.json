@@ -1,0 +1,106 @@
+{"intents": [
+
+  { "tag":"buildings1",
+  "patterns": ["Computer Center"],
+  "responses": ["BAU's main computing center, the Computer center is concerned in computerizing the university computer-based electronic needs and serves the university population, being teaching staff, administration members or students. The center is located in the university's premises in Salt, and is in charge of all other sub-centers of the university colleges and faculties."]
+  },
+  { "tag":"buildings2",
+  "patterns": ["Admission & Registeration Unit","Admission and Registeration","Registeration","Admission"],
+  "responses": ["Admission and Registration Unit has long been playing an active role in the educational process in the university, trying to the best of its ability to overcome all obstacles that face its students. Driven by its strong belief in maintaining connection with the students, our page is put into their service to facilitate communication with them."]
+  },
+  { "tag":"buildings3",
+  "patterns": ["Prince Abdullah bin Ghazi Faculty of IT"],
+  "responses": ["Formerly known as the Faculty of Applied Sciences, our school is one of Jordan’s pioneering faculties. In its former capacity, it was among the first schools to award a BSc in Information Technology in the kingdom Today, and after a few changes in 2004 and 2011, the school is solely dedicated to Information and Communication Technology, and offers a wide range of sought-after world-class programs including Computer Science, Computer Graphics and Animation, Computer Information Systems and Software Engineering."]
+  },
+  { "tag":"buildings3",
+  "patterns": ["Science College"],
+  "responses": ["The College of Science was established in conjunction with the establishment of Al-Balqa Applied University (BAU) in 1997 under the name of the College of Applied Sciences. The college was amongst the first colleges in the Hashemite Kingdom of Jordan that offer the major of information technology. The college’s name was changed in 2004 to become Prince Abdullah Bin Ghazi College of Science and Information Technology. In 2011, the college was split into the College of Science and Prince Abdullah Bin Ghazi College of Information Technology. The College of Science sets its objectives in accordance with the overall objectives of Al-Balqa Applied University (BAU) to keep up with the scientific and technological development to serve the Jordanian society. Moreover, the college is looking forward to achieve distinction locally and globally in the field of applied sciences by providing a variety of outstanding academic programs that can grant both local and international quality and accreditation standards, as well as to meet the needs of labor markets, for now and the future."]
+  },
+  { "tag":"buildings4",
+  "patterns": ["Faculty of Medicine"],
+  "responses": ["The Faculty of Medicine at Al-Balqa Applied University established since 2015 and is located in Al-Salt 'ancient' City as part of the university's main center and adjacent to Al-Hussein 'Al-Salt New' Hospital. The College awards a Bachelor of Medicine Doctor of Medicine degree through regular study over six years. The Faculty of Medicine has eight departments, including the Department of Basic Medical Sciences, Public Health and Community Medicine, Pathology and Forensic Medicine, General Surgery, Special Surgery, Internal Medicine, Pediatrics, and Obstetrics and Gynecology. We employ a distinguished staff with a high level of experience and competency. Scholars are sent to prestigious universities through continuous development plans to acquire up-to-date knowledge in science, research, and clinical training in various disciplines."]
+  },
+  { "tag":"buildings5",
+  "patterns": ["Faculty of Engineering Technology"],
+  "responses": ["Faculty of Engineering Technology (FET) is one of the leading applied institutes of Al Balqa' Applied university (BAU). BAU has 16 college campuses that distributed over all the country, serving Jordanians and developing their professions and careers. FET is specialized in applied learning and technology. Our mission is concentrating on providing skilled technicians and professional engineers with high knowledge in applied sciences and technology."]
+  },
+  { "tag":"buildings6",
+  "patterns": ["Language Center"],
+  "responses": ["Welcome to the Language Center (LC) at Al-Balqa Applied University (BAU)! As a hub of linguistic exploration and academic excellence, our center is dedicated to fostering language proficiency, cultural understanding, and communication skills that empower our students for success in a diverse global landscape. The LC is committed to providing a dynamic learning environment where students can engage with a variety of languages, cultures, and ideas. Whether you are learning a new language, seeking to enhance your communication skills, or exploring cross-cultural perspectives, our dedicated team of educators and staff are here to support and guide you every step of the way. Through innovative teaching methodologies, immersive language experiences, and opportunities for cultural exchange, we aim to inspire a passion for language learning and promote intercultural understanding among our students and the broader community."]
+  },
+
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","your name"],
+  "responses": ["You can call me BAU BOT","I'm BAU BOT"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "available courses" ,"courses"],
+  "responses": [{"link": "documents/showReport.pdf"}]
+  },
+
+   {"tag": "data",
+  "patterns": ["When was the university founded?", "university founded"],
+  "responses": ["The Royal Decree establishing Al-Balqa Applied University was issued on August 22, 1996, and actual teaching began in the academic year 1997/1998."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college","university located","Where is the university located?"],
+  "responses": [{"link": "https://www.google.com/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%A8%D9%84%D9%82%D8%A7%D8%A1+%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D9%8A%D8%A9+%D8%A7%D9%84%D8%B3%D9%84%D8%B7%E2%80%AD/@32.0249634,35.7193685,17z/data=!3m1!4b1!4m6!3m5!1s0x151cbd1654d5c8e5:0x61f22c89710c16af!8m2!3d32.0249589!4d35.7167936!16s%2Fm%2F09gpy97?entry=ttu"}]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","semesters","how many semesters"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester","how long semester"],
+  "responses": ["The single semester will be around 4 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["The admission requirements include a high school diploma with a minimum grade of 65%. Additionally, students must take the proficiency exam prescribed for first-year students, which consists of three tests: Arabic (99), English (99), and Computer Skills (99)."]
+  },
+  
+  {"tag": "Student Proof",
+  "patterns": ["Student Proof","student proof document","proof document","proof"],
+  "responses": ["To obtain a student proof document:\n1-Go to the university's website portal.\n2-Click on the Student Services option.\n3-Click on the Online Registration option.\n4-Click on the Online Registration System option, then enter your university ID and password.\n5-Click on the Registration Servicesoption and select Student Proof."]
+  },
+
+  {"tag": "specializations ",
+  "patterns": ["specializations","specializations college"],
+  "responses": ["1.Software Engineering(SE)\n2. Computer Science(CS)\n3.Computer Graphics and Animation(CGA)\n4.Computer Information Systems(CIS)"]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure","fee","college fee"],
+  "responses": [{"link":"documents/fee.pdf"}]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","ok thanks","OK"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure","Okay"]
+  },
+
+  {"tag": "invalid",
+   "patterns": ["","gvsd","asbhk"],
+   "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  }
+]}
